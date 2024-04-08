@@ -43,8 +43,10 @@ export default {
          </div>
 
          <div class="search_  d-flex">
-            <input type="text" class="" placeholder="Search courses">
-            <p class="bg-primary"><i class="fa-solid  fa-magnifying-glass  text-white  p-2"></i></p>
+            <input type="text" class="border-0  py-2  ps-3 pe-5" placeholder="Search courses">
+            <p class="bg-primary">
+               <i class="fa-solid  fa-magnifying-glass  text-white  py-2  px-3  mt-1  h-100"></i>
+            </p>
          </div>
       </div>
 
@@ -86,6 +88,11 @@ export default {
   p{
     font-size: 13px;
   }
+}
+.search_{
+   input{
+      background-color: rgb(232, 232, 232);
+   }
 }
 
 </style>
