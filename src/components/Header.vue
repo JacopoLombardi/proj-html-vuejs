@@ -3,6 +3,7 @@
 <!-- Javascript -->
 <script>
 
+// componenti
 import Header_first_row from './partials/Header_first_row.vue'
 import Header_second_row from './partials/Header_second_row.vue'
 

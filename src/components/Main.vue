@@ -3,8 +3,19 @@
 <!-- Javascript -->
 <script>
 
+// componenti
+import Main_jumbotron from './partials/Main_jumbotron.vue'
+
+
+
 
 export default {
+  components:{
+    Main_jumbotron,
+
+
+  },
+
   data(){
     return{
 
@@ -21,8 +32,14 @@ export default {
 
 <!-- HTML -->
 <template>
+
+
+  <Main_jumbotron />
+
   
   
+
+
 </template>
 
 
@@ -31,5 +48,7 @@ export default {
 <style lang="scss" scoped>
 
 @use '../assets/scss/partials/variables' as *;
+
+
 
 </style>
