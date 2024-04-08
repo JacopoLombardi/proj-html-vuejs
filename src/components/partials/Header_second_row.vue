@@ -91,7 +91,7 @@ export default {
 }
 .search_{
    input{
-      background-color: rgb(232, 232, 232);
+      background-color: rgb(239, 239, 239);
    }
 }
 
