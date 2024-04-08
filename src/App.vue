@@ -33,16 +33,15 @@ export default {
 
 <!-- HTML -->
 <template>
+  
 
-  <div class="_container_custom  border">
+  <Header />
 
-    <Header />
 
-    <Main />
+  <Main />
 
-    <Footer />
 
-  </div>
+  <Footer />
 
 
 </template>

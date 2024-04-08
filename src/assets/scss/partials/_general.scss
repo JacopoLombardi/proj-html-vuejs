@@ -6,3 +6,23 @@
 ._container_custom{
    width: 90%;
 }
+
+p{
+   margin: 0;
+}
+
+.uppercase_{
+   text-transform: uppercase;
+}
+
+.capitalized_{
+   text-transform: capitalize;
+}
+
+.blue_{
+   color: rgb(23, 155, 250);
+}
+
+.text_grey{
+   color: rgba(118, 118, 118, 0.965);
+}
