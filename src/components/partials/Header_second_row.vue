@@ -6,13 +6,15 @@
 import {store} from '../.././data/store'
 
 // importo gli oggetti dal file JS dedicato
-// import {} from '../../../public/jsFolder/header'
+import {logoArray, becomeArray} from '../../../public/jsFolder/header'
 
 export default {
 
   data(){
     return{
       store,
+      logoArray,
+      becomeArray
     };
   },
 
@@ -31,8 +33,11 @@ export default {
    <section class="d-flex  align-items-center  justify-content-between  mt-4">
 
       <!-- logo -->
-      <div>
-         <img src="../../../public/img/MasterStudy_logo.svg" alt="">
+      <div
+         v-for="item in logoArray"
+         :key="item.id"
+      >
+         <img :src="item" alt="">
       </div>
 
       <!-- input -->
@@ -44,35 +49,37 @@ export default {
 
          <div class="search_  d-flex">
             <input type="text" class="border-0  py-2  ps-3 pe-5" placeholder="Search courses">
-            <p class="bg-primary">
-               <i class="fa-solid  fa-magnifying-glass  text-white  py-2  px-3  mt-1  h-100"></i>
-            </p>
+            <p class="bg-primary"> <i class="fa-solid  fa-magnifying-glass  text-white  py-2  px-3  mt-1  h-100"></i> </p>
          </div>
       </div>
 
       <!-- become -->
       <div class="d-flex">
-         <div class="d-flex  me-4">
-            <p><i class="fa-solid  fa-bullhorn  blue_  me-2"></i></p>
-            <p class="capitalized_">become an instructor</p>
-         </div>
-
-         <div class="d-flex">
-            <p><i class="fa-solid  fa-briefcase  blue_  me-2"></i></p>
-            <p class="capitalized_">for enterprise</p>
+         <div 
+            v-for="(item, i) in becomeArray"
+            :key="i"
+            :class="{'me-4': i === 0}"
+            class="d-flex"
+         >
+            <p>
+               <i
+                 :class="item.icon"
+                 class="fa-solid  blue_  me-2">
+               </i>
+            </p>
+            <p class="capitalized_">{{ item.text }}</p>
          </div>
       </div>
 
       <!-- sign up -->
       <div class="d-flex  align-items-center">
          <div class="d-flex">
-            <p><i class="fa-regular  fa-user  blue_  me-1"></i></p>
+            <p> <i class="fa-regular  fa-user  blue_  me-1"></i> </p>
             <p class="blue_">Log in</p>
          </div>
 
          <button class="btn  btn-primary  uppercase_  rounded-5  fw-semibold  mx-4  py-3  px-5">sign up</button>
-
-         <p><i class="fa-regular  fa-bookmark  blue_  fs-5"></i></p>
+         <p> <i class="fa-regular  fa-bookmark  blue_  fs-5"></i> </p>
       </div>
 
    </section>

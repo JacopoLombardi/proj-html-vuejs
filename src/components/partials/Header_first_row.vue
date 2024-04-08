@@ -6,13 +6,14 @@
 import {store} from '../.././data/store'
 
 // importo gli oggetti dal file JS dedicato
-import {optionArray, socialArray} from '../../../public/jsFolder/header'
+import {languageArray, optionArray, socialArray} from '../../../public/jsFolder/header'
 
 export default {
 
   data(){
     return{
       store,
+      languageArray,
       optionArray,
       socialArray
     };
@@ -35,10 +36,12 @@ export default {
       <!-- language -->
       <div>
          <select class="border-0  capitalized  fw-semibold  text_grey">
-            <option selected>English</option>
-            <option value="1">Italian</option>
-            <option value="2">Spanish</option>
-            <option value="3">German</option>
+            <option
+               v-for="(item, i) in languageArray"
+               :key="i"
+            >
+               {{ item }}
+            </option>
          </select>
       </div>
 
@@ -49,7 +52,8 @@ export default {
             <p
                v-for="item in optionArray"
                :key="item.id"
-               class="capitalized_  mx-3">
+               class="capitalized_  mx-3"
+            >
                {{ item.name }}
             </p>
          </div>
@@ -60,8 +64,8 @@ export default {
                v-for="item in socialArray"
                :key="item.id"
                v-html="item"
-               class="_social_icon  fs-5  mx-2">
-               
+               class="_social_icon  fs-5  mx-2"
+            >
             </p>
          </div>
       </div>
