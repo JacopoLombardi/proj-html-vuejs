@@ -34,12 +34,17 @@ export default {
 <!-- HTML -->
 <template>
 
-  <Header />
+  <div class="_container_custom  border">
 
-  <Main />
+    <Header />
 
-  <Footer />
-  
+    <Main />
+
+    <Footer />
+
+  </div>
+
+
 </template>
 
 
