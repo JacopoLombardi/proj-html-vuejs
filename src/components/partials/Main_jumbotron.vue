@@ -99,11 +99,10 @@ export default {
    margin-top: 100px;
    ._card{
    max-width: 410px;
-   padding: 30px;
-   padding-bottom: 15px;
+   padding: 35px;
    background-color: #f2f6fb;
       i{
-         font-size: 100px;
+         font-size: 80px;
       }
    }
 }
