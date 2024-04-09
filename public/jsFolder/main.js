@@ -271,9 +271,108 @@ export const recentCoursesArray = {
                discount: false
             }
       },
-
-
-
+      {
+         src: 'photo-1475452779376-caebfb988090-544x322.jpeg',
+         alt: 'bike',
+         type: 'bicycling',
+         text: 'Road Bike Manual or How to Be a Champion',
+         timeOrStars: 
+            {
+               courseLength: '6 hours',
+               iconClock: '<i class="fa-regular fa-clock"></i>',
+               stars: false
+            },
+         priceAndDiscount:
+            {
+               price: '20',
+               discount: false
+            }
+      },
+      {
+         src: 'cristian-grecu-762012-unsplash-min-scaled-544x322.jpg',
+         alt: 'mountain',
+         type: 'documentary',
+         text: 'How to Make Beautiful Landscape photos?',
+         timeOrStars: 
+            {
+               courseLength: '6 hours',
+               iconClock: '<i class="fa-regular fa-clock"></i>',
+               stars: false
+            },
+         priceAndDiscount:
+            {
+               price: '60',
+               discount: false
+            }
+      },
+      {
+         src: 'landscape-544x322.jpg',
+         alt: 'paint',
+         type: 'art',
+         text: 'Let\'s paint van Gogh\'s Starry Night',
+         timeOrStars: 
+            {
+               courseLength: '6 hours',
+               iconClock: '<i class="fa-regular fa-clock"></i>',
+               stars: false
+            },
+         priceAndDiscount:
+            {
+               price: '79',
+               discount: false
+            }
+      },
+      {
+         src: '12345-1-544x322.png',
+         alt: 'unreal',
+         type: 'nvidia',
+         text: 'Nvidia and UE4 Technologies Practise',
+         timeOrStars: 
+            {
+               courseLength: false,
+               iconClock: false,
+               stars: true
+            },
+         priceAndDiscount:
+            {
+               price: 'Free',
+               discount: false
+            }
+      },
+      {
+         src: 'jakob-owens-198234-unsplash-min-1-544x322.png',
+         alt: 'camera',
+         type: 'art',
+         text: 'How to Work with Legendary RED camera?',
+         timeOrStars: 
+            {
+               courseLength: '6 hours',
+               iconClock: '<i class="fa-regular fa-clock"></i>',
+               stars: false
+            },
+         priceAndDiscount:
+            {
+               price: 'Free',
+               discount: false
+            }
+      },
+      {
+         src: 'promo_tf-544x322.jpg',
+         alt: 'promo',
+         type: 'software development',
+         text: 'MasterStudy Mobile LMS App',
+         timeOrStars: 
+            {
+               courseLength: '2 hours',
+               iconClock: '<i class="fa-regular fa-clock"></i>',
+               stars: false
+            },
+         priceAndDiscount:
+            {
+               price: 'Free',
+               discount: false
+            }
+      },
    ]
 };
 

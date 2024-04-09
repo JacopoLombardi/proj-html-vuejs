@@ -58,7 +58,7 @@ export default {
     <!-- cards wrapper -->
     <div class="d-flex  justify-content-center">
       <div class="_container_custom">
-        <div class="d-flex row">
+        <div class="d-flex  row  flex-wrap  justify-content-center">
 
           <Main_cards_layout 
             v-for="item in recentCoursesArray.cards"
@@ -69,6 +69,13 @@ export default {
         </div>
       </div>
     </div>
+
+
+    <!-- button -->
+    <div class="text-center  mt-4">
+      <button class="btn  btn-primary  rounded-5  uppercase_  fw-semibold  px-3">show all</button>
+    </div>
+
   </section>
 
 </template>

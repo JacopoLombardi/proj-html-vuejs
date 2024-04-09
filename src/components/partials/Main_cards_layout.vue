@@ -37,14 +37,14 @@ export default {
 <!-- HTML -->
 <template>
 
-   <div class="card  bg-light  border  col  mx-2  p-0">
+   <div class="card  bg-light  border  col-2  mx-2  p-0  mb-5">
       <img
         :src="('../../../public/img/' + cards.src)"
         alt=""
         class="card-img-top"
       >
       <div class="card-body">
-         <p class="_type  text_grey">{{ cards.type }} ></p>
+         <p class="_type  text_grey  capitalized_">{{ cards.type }} ></p>
          <p class="_title  fw-semibold  fs-5  my-3  pb-3">{{ cards.text }}</p>
 
          <div class="d-flex  justify-content-between">
@@ -83,27 +83,23 @@ export default {
                </div>
             </div>
 
+            
             <!-- price -->
             <div>
-
                <p
                   v-if="cards.priceAndDiscount.discount"
-                  class="text_light_grey  line_through"
+                  class="text_light_grey  line_through  fw-semibold"
                >
                   ${{ cards.priceAndDiscount.discount }}
                </p>
-
-
 
                <p
                  v-if="cards.priceAndDiscount.price"
                  class="fs-5  fw-semibold"
                >
-                  {{ cards.priceAndDiscount.price }}
+                  {{ cards.priceAndDiscount.price === 'Free' ? cards.priceAndDiscount.price : '$' + cards.priceAndDiscount.price }}
                </p>
-               
             </div>
-
          </div>
 
       </div>
@@ -117,21 +113,22 @@ export default {
 <style lang="scss" scoped>
 
 
-.card-body{
-   ._type{
-      font-size: 14px;
+.card{
+   max-width: 270px;
+   .card-body{
+      ._type{
+         font-size: 14px;
+      }
+   }
+   .card-body{
+      ._title{
+         border-bottom: 1px solid rgb(214, 214, 214);
+      }
+      ._star{
+         width: 20px;
+      }
    }
 }
-
-.card-body{
-   ._title{
-      border-bottom: 1px solid rgb(214, 214, 214);
-   }
-   ._star{
-      width: 20px;
-   }
-}
-
 
 
 
