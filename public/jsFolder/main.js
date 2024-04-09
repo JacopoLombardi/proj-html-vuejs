@@ -170,7 +170,8 @@ export const recentCoursesArray = {
 
    cards: [
       {
-         img: '',
+         src: 'photo-1461749280684-dccba630e2f6-544x322.jpeg',
+         alt: 'code',
          type: 'apache',
          text: 'Web Coding and Apache Basics',
          timeOrStars: 
@@ -186,7 +187,8 @@ export const recentCoursesArray = {
             }
       },
       {
-         img: '',
+         src: 'cat_2-544x322.jpg',
+         alt: 'art',
          type: 'art',
          text: 'Real Things Art Painting by Jason Ni',
          timeOrStars: 
@@ -202,12 +204,14 @@ export const recentCoursesArray = {
             }
       },
       {
-         img: '',
+         src: 'course-preview-544x322.jpg',
+         alt: 'masterstudy',
          type: 'software development',
          text: 'Basics of Masterstudy',
          timeOrStars: 
             {
                courseLength: false,
+               iconClock: false,
                stars: true
             },
          priceAndDiscount:
@@ -217,12 +221,14 @@ export const recentCoursesArray = {
             }
       },
       {
-         img: '',
+         src: 'photo-1496307042754-b4aa456c4a2d-544x322.jpeg',
+         alt: 'music',
          type: 'electronic',
          text: 'How to be a DJ? Make Electronic Music',
          timeOrStars: 
             {
                courseLength: false,
+               iconClock: false,
                stars: true
             },
          priceAndDiscount:
@@ -232,7 +238,8 @@ export const recentCoursesArray = {
             }
       },
       {
-         img: '',
+         src: 'photo-1416339134316-0e91dc9ded92-scaled-544x322.jpeg',
+         alt: 'design',
          type: 'communication',
          text: 'Design Instrument for Communication',
          timeOrStars: 
@@ -248,7 +255,8 @@ export const recentCoursesArray = {
             }
       },
       {
-         img: '',
+         src: 'cathryn-lavery-67852-unsplash-544x322.jpg',
+         alt: 'book',
          type: 'art',
          text: 'Make your Concept Right and Beautiful',
          timeOrStars: 
@@ -266,12 +274,7 @@ export const recentCoursesArray = {
 
 
 
-
-      
    ]
-
-
-
 };
 
 

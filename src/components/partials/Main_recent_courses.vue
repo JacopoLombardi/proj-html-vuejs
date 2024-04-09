@@ -39,10 +39,10 @@ export default {
   <section>
 
     <!-- titolo e menu -->
-    <div class="bg-light  d-flex  flex-column  align-items-center">
+    <div class="d-flex  flex-column  align-items-center">
       <h2 class="fw-normal  fs-1  mb-5">Recent courses</h2>
 
-      <ul class="box_title  d-flex">
+      <ul class="box_title  d-flex  mb-5">
         <li
           v-for="item in recentCoursesArray.menu"
           :key="item.id"
@@ -55,25 +55,20 @@ export default {
     </div>
 
 
-
-
     <!-- cards wrapper -->
-    <div>
+    <div class="d-flex  justify-content-center">
+      <div class="_container_custom">
+        <div class="d-flex row">
 
+          <Main_cards_layout 
+            v-for="item in recentCoursesArray.cards"
+            :key="item.id"
+            :cards="item"
+          />
 
-
-      <Main_cards_layout 
-        v-for="item in recentCoursesArray"
-        :key="item.id"
-        :recentCoursesArray="item"
-      />
-
-
-
+        </div>
+      </div>
     </div>
-
-
-
   </section>
 
 </template>
