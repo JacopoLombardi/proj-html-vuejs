@@ -132,7 +132,6 @@ export const photoDashboardArray = {
 
 
 
-
 //////////////////  limitless  //////////////////////
 
 
@@ -152,11 +151,128 @@ export const limitlesTextArray = [
 
 
 
-
 /////////////////  recent_courses  ////////////////////
 
 
+export const recentCoursesArray = {
 
+   menu: [
+      'all categories',
+      'art',
+      'exercise',
+      'material design',
+      'music',
+      'photography',
+      'software development',
+   ],
+
+
+
+   cards: [
+      {
+         img: '',
+         type: 'apache',
+         text: 'Web Coding and Apache Basics',
+         timeOrStars: 
+            {
+               courseLength: '6 hours',
+               iconClock: '<i class="fa-regular fa-clock"></i>',
+               stars: false
+            },
+         priceAndDiscount:
+            {
+               price: 'Free',
+               discount: false
+            }
+      },
+      {
+         img: '',
+         type: 'art',
+         text: 'Real Things Art Painting by Jason Ni',
+         timeOrStars: 
+            {
+               courseLength: '6 hours',
+               iconClock: '<i class="fa-regular fa-clock"></i>',
+               stars: false
+            },
+         priceAndDiscount:
+            {
+               price: '45',
+               discount: '60'
+            }
+      },
+      {
+         img: '',
+         type: 'software development',
+         text: 'Basics of Masterstudy',
+         timeOrStars: 
+            {
+               courseLength: false,
+               stars: true
+            },
+         priceAndDiscount:
+            {
+               price: 'Free',
+               discount: false
+            }
+      },
+      {
+         img: '',
+         type: 'electronic',
+         text: 'How to be a DJ? Make Electronic Music',
+         timeOrStars: 
+            {
+               courseLength: false,
+               stars: true
+            },
+         priceAndDiscount:
+            {
+               price: '49',
+               discount: '59'
+            }
+      },
+      {
+         img: '',
+         type: 'communication',
+         text: 'Design Instrument for Communication',
+         timeOrStars: 
+            {
+               courseLength: '6 hours',
+               iconClock: '<i class="fa-regular fa-clock"></i>',
+               stars: false
+            },
+         priceAndDiscount:
+            {
+               price: false,
+               discount: false
+            }
+      },
+      {
+         img: '',
+         type: 'art',
+         text: 'Make your Concept Right and Beautiful',
+         timeOrStars: 
+            {
+               courseLength: '6 hours',
+               iconClock: '<i class="fa-regular fa-clock"></i>',
+               stars: false
+            },
+         priceAndDiscount:
+            {
+               price: '70',
+               discount: false
+            }
+      },
+
+
+
+
+      
+   ]
+
+
+
+};
 
 
 
