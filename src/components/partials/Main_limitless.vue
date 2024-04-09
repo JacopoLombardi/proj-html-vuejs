@@ -5,10 +5,15 @@
 
 import {store} from '../.././data/store'
 
+// importo gli oggetti dal file JS dedicato
+import {limitlesTextArray} from '../../../public/jsFolder/main'
+
 export default {
+
   data(){
     return{
-      store
+      store,
+      limitlesTextArray
     };
   },
 
@@ -19,17 +24,21 @@ export default {
 </script>
 
 
-
+ 
 <!-- HTML -->
 <template>
   
    <section class="d-flex  justify-content-center  align-items-center">
       <div class="_container_custom_sm">
 
-         <div class="_description">
-            <h2 class="fw-normal  fs-1">Limitless learning, more possibilities</h2>
-            <p class="fw-semibold  fs-5  my-4">Online courses open the opportunity for learning to almost anyone, regardless of their sheduling commitments.</p>
-            <button class="btn  btn-primary  rounded-5  fw-semibold  uppercase_  py-2  px-4">read more</button>
+         <div
+           v-for="item in limitlesTextArray"
+           :key="item.id"
+           class="_description"
+           >
+            <h2 class="fw-normal  fs-1">{{item.title}}</h2>
+            <p class="fw-semibold  fs-5  my-4">{{ item.text }}</p>
+            <button class="btn  btn-primary  rounded-5  fw-semibold  uppercase_  py-2  px-4">{{ item.textBtn }}</button>
          </div>
 
       </div>

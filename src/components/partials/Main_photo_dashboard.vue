@@ -5,10 +5,14 @@
 
 import {store} from '../.././data/store'
 
+// importo gli oggetti dal file JS dedicato
+import {photoDashboardArray} from '../../../public/jsFolder/main'
+
 export default {
   data(){
     return{
-      store
+      store,
+      photoDashboardArray
     };
   },
 
@@ -28,28 +32,34 @@ export default {
 
          <!-- upper row -->
          <div class="_upper  d-flex">
-            <div class="big_photo">
-               <img src="../../../public/img/cat_1-1540x750.jpg" alt="">
-               <div class="d-flex  justify-content-between  mt-2">
-                  <p>software development</p>
-                  <p>5 courses</p>
+            <div 
+               v-for="item in photoDashboardArray.bigPhoto"
+               :key="item.id"
+               class="big_photo  pe-5"
+            >
+               <img 
+                  :src="item.src" 
+                  :alt="item.alt"
+               >
+               <div class="box_text">
+                  <h4>{{ item.title }}</h4>
+                  <p>{{ item.text }}</p>
                </div>
             </div>
 
-            <div class="right_to_big_photo  d-flex  flex-column  justify-content-between">
-               <div>
-                  <img src="../../../public/img/cat_2-740x310.jpg" alt="">
-                  <div class="d-flex  justify-content-between  mt-2">
-                     <p>art</p>
-                     <p>8 courses</p>
-                  </div>
-               </div>
 
-               <div>
-                  <img src="../../../public/img/cat_3-740x310.jpg" alt="">
-                  <div class="d-flex  justify-content-between  mt-2">
-                     <p>material design</p>
-                     <p>5 courses</p>
+            <div class="right_to_big_photo  d-flex  flex-column  justify-content-between">
+               <div 
+                  v-for="item in photoDashboardArray.rightToBigPhoto"
+                  :key="item.id"
+               >
+                  <img 
+                     :src="item.src" 
+                     :alt="item.alt"
+                  >
+                  <div class="box_text">
+                     <h4>{{ item.title }}</h4>
+                     <p>{{ item.text }}</p>
                   </div>
                </div>
             </div>
@@ -58,33 +68,23 @@ export default {
 
          <!-- down row -->
          <div class="_down  d-flex  mt-4">
-            <div>
-               <img src="../../../public/img/cat_4-740x310.jpg" alt="">
-               <div class="d-flex  justify-content-between  mt-2">
-                  <p>music</p>
-                  <p>5 courses</p>
-               </div>
-            </div>
-
-            <div class="mx-5">
-               <img src="../../../public/img/cat_5-740x310.jpg" alt="">
-               <div class="d-flex  justify-content-between  mt-2">
-                  <p>exercise</p>
-                  <p>7 courses</p>
-               </div>
-            </div>
-
-            <div>
-               <img src="../../../public/img/cat_6-740x310.jpg" alt="">
-               <div class="d-flex  justify-content-between  mt-2">
-                  <p>photography</p>
-                  <p>4 courses</p>
+            <div 
+               v-for="(item,i) in photoDashboardArray.downPhoto"
+               :key="item.id"
+               :class="{'mx-5': i === 1}"
+            >
+               <img 
+                  :src="item.src" 
+                  :alt="item.alt"
+               >
+               <div class="box_text">
+                  <h4>{{ item.title }}</h4>
+                  <p>{{ item.text }}</p>
                </div>
             </div>
          </div>
 
       </div>
-
    </section>
 
 </template>
@@ -95,16 +95,20 @@ export default {
 <style lang="scss" scoped>
 
 
-p{
-   font-weight: 500;
-   font-size: 20px;
-   text-transform: capitalize;
-}
-
 section{
    margin-top: 150px;
-   .big_photo{
-      padding: 0 40px 0 0;
+   .box_text{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      h4{
+      font-size: 21px;
+      }
+      p{
+         font-weight: 500;
+         font-size: 20px;
+         text-transform: capitalize;
+      }
    }
 }
 

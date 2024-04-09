@@ -37,7 +37,11 @@ export default {
          v-for="item in logoArray"
          :key="item.id"
       >
-         <img :src="item" alt="">
+         <img 
+            :src="item.src" 
+            :alt="item.alt"
+            class="cursor_pointer"
+            >
       </div>
 
       <!-- input -->
@@ -73,13 +77,13 @@ export default {
 
       <!-- sign up -->
       <div class="d-flex  align-items-center">
-         <div class="d-flex">
+         <div class="d-flex  cursor_pointer">
             <p> <i class="fa-regular  fa-user  blue_  me-1"></i> </p>
             <p class="blue_">Log in</p>
          </div>
 
          <button class="btn  btn-primary  uppercase_  rounded-5  fw-semibold  mx-4  py-3  px-5">sign up</button>
-         <p> <i class="fa-regular  fa-bookmark  blue_  fs-5"></i> </p>
+         <p> <i class="fa-regular  fa-bookmark  blue_  cursor_pointer  fs-5"></i> </p>
       </div>
 
    </section>

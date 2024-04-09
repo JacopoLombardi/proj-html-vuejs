@@ -35,7 +35,7 @@ export default {
 
       <!-- language -->
       <div>
-         <select class="border-0  capitalized  fw-semibold  text_grey">
+         <select class="border-0  capitalized  cursor_pointer  fw-semibold  text_grey">
             <option
                v-for="(item, i) in languageArray"
                :key="i"
@@ -52,7 +52,7 @@ export default {
             <p
                v-for="item in optionArray"
                :key="item.id"
-               class="capitalized_  mx-3"
+               class="capitalized_  cursor_pointer  mx-3"
             >
                {{ item.name }}
             </p>
@@ -64,7 +64,7 @@ export default {
                v-for="item in socialArray"
                :key="item.id"
                v-html="item"
-               class="_social_icon  fs-5  mx-2"
+               class="_social_icon  cursor_pointer  fs-5  mx-2"
             >
             </p>
          </div>

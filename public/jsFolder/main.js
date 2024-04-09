@@ -62,12 +62,98 @@ export const cardsArray = [
    {
       class: 'fa-calendar-days',
       title: 'Graduate in as little as 1 Year',
-      text: '>Online post-graduate certificates are a popular way to develop your professional qualifications of Masterstudy'
+      text: 'Online post-graduate certificates are a popular way to develop your professional qualifications of Masterstudy'
    }
 ];
 
 
 
+
+
+
+
+
+//////////////////  photo_dashboard  //////////////////////
+
+
+export const photoDashboardArray = {
+
+   bigPhoto: [
+      {
+         src: '../../../public/img/cat_1-1540x750.jpg',
+         alt: 'developer',
+         title: 'software development',
+         text: '5 courses'
+      }
+   ],
+
+   rightToBigPhoto: [
+      {
+         src: '../../../public/img/cat_2-740x310.jpg',
+         alt: 'art',
+         title: 'art',
+         text: '8 courses'
+      },
+      {
+         src: '../../../public/img/cat_3-740x310.jpg',
+         alt: 'pc',
+         title: 'material design',
+         text: '5 courses'
+      }
+   ],
+   
+   downPhoto: [
+      {
+         src: '../../../public/img/cat_4-740x310.jpg',
+         alt: 'exercise',
+         title: 'exercise',
+         text: '5 courses'
+      },
+      {
+         src: '../../../public/img/cat_5-740x310.jpg',
+         alt: 'music',
+         title: 'music',
+         text: '7 courses'
+      },
+      {
+         src: '../../../public/img/cat_6-740x310.jpg',
+         alt: 'photography',
+         title: 'photography',
+         text: '4 courses'
+      }
+   ]
+};
+
+
+
+
+
+
+
+
+
+
+//////////////////  limitless  //////////////////////
+
+
+export const limitlesTextArray = [
+   {
+      title: 'Limitless learning, more possibilities',
+      text: 'Online courses open the opportunity for learning to almost anyone, regardless of their sheduling commitments.',
+      textBtn: 'read more'
+   }
+];
+
+
+
+
+
+
+
+
+
+
+/////////////////  recent_courses  ////////////////////
 
 
 

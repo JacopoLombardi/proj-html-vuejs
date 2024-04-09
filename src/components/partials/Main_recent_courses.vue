@@ -5,10 +5,14 @@
 
 import {store} from '../.././data/store'
 
+// importo gli oggetti dal file JS dedicato
+import {} from '../../../public/jsFolder/main'
+
 export default {
   data(){
     return{
-      store
+      store,
+
     };
   },
 
@@ -24,6 +28,11 @@ export default {
 <template>
   
    <section class="mt-5">
+
+
+
+
+    
       
    </section>
 

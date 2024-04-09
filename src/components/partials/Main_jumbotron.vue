@@ -108,7 +108,7 @@ export default {
 ._cards{
    margin-top: 100px;
    ._card{
-   max-width: 410px;
+   margin: 0 10px;
    padding: 35px;
    background-color: #f2f6fb;
       i{
