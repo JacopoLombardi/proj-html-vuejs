@@ -405,7 +405,36 @@ export const proudArray = [
       number: '150',
       type: 'countries reached'
    },
-]
+];
+
+
+
+
+
+
+
+
+/////////////////  become  ////////////////////
+
+
+export const becomeArray = [
+   {
+      src: 'image_box_1-221x231.png',
+      alt: 'become',
+      title:'Become an instructor',
+      text: 'Teach what you love. MasterStudy gives you the tools to create a course.',
+      btnText: 'start teaching'
+   },
+   {
+      src: 'image_box_2-234x231.png',
+      alt: 'setup',
+      title:'Setup For Business',
+      text: 'Get unlimited access to 2,500 of Udemy\'s top courses for your team.',
+      btnText: 'doing business'
+   }
+];
+
+
 
 
 
@@ -415,17 +444,4 @@ export const proudArray = [
 
 
 /////////////////    ////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
 
