@@ -11,6 +11,7 @@ import Main_recent_courses from './partials/Main_recent_courses.vue'
 import Main_proud from './partials/Main_proud.vue'
 import Main_popular_courses from './partials/Main_popular_courses.vue'
 import Main_become from './partials/Main_become.vue'
+import Main_come from './partials/Main_come.vue'
 
 
 
@@ -25,7 +26,7 @@ export default {
     Main_proud,
     Main_popular_courses,
     Main_become,
-
+    Main_come,
 
 
   },
@@ -61,7 +62,7 @@ export default {
 
   <Main_become />
 
-
+  <Main_come />
 
 
 

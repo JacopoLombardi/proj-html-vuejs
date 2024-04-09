@@ -1,6 +1,6 @@
 
 
-//////////////////  jumbotron  //////////////////////
+//////////////////  Main_jumbotron  //////////////////////
 
 
 // array del titolo e testo
@@ -73,7 +73,7 @@ export const cardsArray = [
 
 
 
-//////////////////  photo_dashboard  //////////////////////
+//////////////////  Main_photo_dashboard  //////////////////////
 
 
 export const photoDashboardArray = {
@@ -132,7 +132,7 @@ export const photoDashboardArray = {
 
 
 
-//////////////////  limitless  //////////////////////
+//////////////////  Main_limitless  //////////////////////
 
 
 export const limitlesTextArray = [
@@ -151,7 +151,7 @@ export const limitlesTextArray = [
 
 
 
-/////////////////  recent_courses  ////////////////////
+/////////////////  Main_recent_courses  ////////////////////
 
 
 export const recentCoursesArray = {
@@ -385,7 +385,7 @@ export const recentCoursesArray = {
 
 
 
-/////////////////  proud  ////////////////////
+/////////////////  Main_proud  ////////////////////
 
 
 export const proudArray = [
@@ -414,7 +414,7 @@ export const proudArray = [
 
 
 
-/////////////////  become  ////////////////////
+/////////////////  Main_become  ////////////////////
 
 
 export const becomeArray = [
@@ -443,5 +443,14 @@ export const becomeArray = [
 
 
 
-/////////////////    ////////////////////
+/////////////////  Main_come  ////////////////////
 
+
+export const comeArray = [
+   {
+      titlePrincipal: 'Come as you are',
+      textPrincipal: 'MasterStudy used is an excellent workshop whether you come as a counselor, advisor, administrator, or faculty member. I am going home empowered. i am looking forward to attending the On Course MasterStudy and the MasterStudy national Conference next year and facilitating the user of this excellent retention/student success course at my college.',
+      titleScondary: 'tim sab',
+      textSecondary: 'generale developer, stylemix themes'
+   }
+];

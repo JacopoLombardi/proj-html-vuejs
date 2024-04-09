@@ -11,11 +11,6 @@ import {becomeArray} from '../../../public/jsFolder/main'
 
 export default {
 
-   components:{
-      store,
-      
-   },
-
   data(){
     return{
       store,
@@ -36,7 +31,7 @@ export default {
 
    <section class="d-flex  justify-content-center">
       <div class="_container_custom  d-flex  justify-content-center">
-         
+
          <div
            v-for="item in becomeArray"
            :key="item.id"

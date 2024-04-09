@@ -15,7 +15,6 @@ import {recentCoursesArray} from '../../../public/jsFolder/main'
 export default {
 
    components:{
-      store,
       Main_cards_layout
    },
 
