@@ -9,7 +9,7 @@ import Main_photo_dashboard from './partials/Main_photo_dashboard.vue'
 import Main_limitless from './partials/Main_limitless.vue'
 import Main_recent_courses from './partials/Main_recent_courses.vue'
 import Main_proud from './partials/Main_proud.vue'
-
+import Main_popular_courses from './partials/Main_popular_courses.vue'
 
 
 export default {
@@ -19,7 +19,7 @@ export default {
     Main_limitless,
     Main_recent_courses,
     Main_proud,
-
+    Main_popular_courses,
   },
 
   data(){
@@ -48,6 +48,8 @@ export default {
   <Main_recent_courses />
 
   <Main_proud />
+
+  <Main_popular_courses />
 
 
 </template>

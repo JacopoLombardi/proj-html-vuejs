@@ -61,12 +61,13 @@ export default {
    <!-- subscribe -->
    <section class="bg_green  d-flex  justify-content-center  align-items-center  text-white">
 
+      <!-- text -->
       <div class="box_text  me-4  pe-2">
          <h4 class="fw-normal">Subscribe our newsletter</h4>
          <p>There are many variations of passages of Lorem Ipsum avaible, but the majority have suffered alteration in some form, by injected humor, or randomised words</p>
       </div>
-
-
+      
+      <!-- box email -->
       <div>
       <h5 class="uppercase_  mb-3">your e-mail addres</h5>
          <div class="search_  d-flex">
