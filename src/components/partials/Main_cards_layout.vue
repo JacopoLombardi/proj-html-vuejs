@@ -25,10 +25,6 @@ export default {
       return '../../../public/img/starfull.svg'
    }
   },
-
-  mounted(){
-   console.log(this.cards)
-  }
 };
 </script>
 

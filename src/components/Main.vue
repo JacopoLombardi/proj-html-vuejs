@@ -8,7 +8,7 @@ import Main_jumbotron from './partials/Main_jumbotron.vue'
 import Main_photo_dashboard from './partials/Main_photo_dashboard.vue'
 import Main_limitless from './partials/Main_limitless.vue'
 import Main_recent_courses from './partials/Main_recent_courses.vue'
-
+import Main_proud from './partials/Main_proud.vue'
 
 
 
@@ -18,7 +18,7 @@ export default {
     Main_photo_dashboard,
     Main_limitless,
     Main_recent_courses,
-
+    Main_proud,
 
   },
 
@@ -47,7 +47,7 @@ export default {
   
   <Main_recent_courses />
 
-
+  <Main_proud />
 
 
 </template>

@@ -40,7 +40,7 @@ export default {
 
     <!-- titolo e menu -->
     <div class="d-flex  flex-column  align-items-center">
-      <h2 class="fw-normal  fs-1  mb-5">Recent courses</h2>
+      <h2 class="fw-light  fs-1  mb-5">Recent courses</h2>
 
       <ul class="box_title  d-flex  mb-5">
         <li
@@ -88,7 +88,6 @@ export default {
 
 section{
   margin-top: 130px;
-   height: 800px;
    .box_title{
     & li:hover{
       transition: all 0.6s ease;

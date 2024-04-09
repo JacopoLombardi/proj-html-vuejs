@@ -380,3 +380,51 @@ export const recentCoursesArray = {
 
 
 
+
+
+
+
+
+/////////////////  proud  ////////////////////
+
+
+export const proudArray = [
+   {
+      number: '2000',
+      type: 'students'
+   },
+   {
+      number: '950',
+      type: 'courses'
+   },
+   {
+      number: '1600',
+      type: 'hours video'
+   },
+   {
+      number: '150',
+      type: 'countries reached'
+   },
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

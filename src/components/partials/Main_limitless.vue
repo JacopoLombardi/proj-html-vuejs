@@ -36,8 +36,8 @@ export default {
            :key="item.id"
            class="_description"
            >
-            <h2 class="fw-normal  fs-1">{{item.title}}</h2>
-            <p class="fw-semibold  fs-5  my-4">{{ item.text }}</p>
+            <h2 class="fw-light  fs-1">{{item.title}}</h2>
+            <p class="fs-5  my-4">{{ item.text }}</p>
             <button class="btn  btn-primary  rounded-5  fw-semibold  uppercase_  py-2  px-4">{{ item.textBtn }}</button>
          </div>
 
