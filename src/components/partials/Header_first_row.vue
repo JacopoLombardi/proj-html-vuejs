@@ -31,7 +31,7 @@ export default {
 <template>
 
    <!-- first row -->
-   <section class="d-flex  justify-content-between  text_grey  py-2  m-0">
+   <section class="d-flex  justify-content-between  text_grey  py-4  m-0">
 
       <!-- language -->
       <div>
@@ -48,13 +48,20 @@ export default {
 
       <div class="d-flex">
          <!-- option -->
-         <ul class="d-flex  fs-5  fw-semibold  me-5  mb-0">
+         <ul class="_option  d-flex  fs-5  fw-semibold  me-5  mb-0">
             <li
                v-for="item in optionArray"
                :key="item.id"
-               class="capitalized_  cursor_pointer  mx-3"
+               class="capitalized_  position-relative  cursor_pointer  rounded-5  mx-1  px-3"
             >
                {{ item.name }}
+
+               <span
+                 :class="{'d-none': item.new === false}"
+                 class="badge  text-bg-danger  position-absolute">
+                 New
+               </span>
+
             </li>
          </ul>
 
@@ -82,6 +89,17 @@ export default {
 
 section{
    padding: 0 80px;
+   ._option li:hover{
+      transition: all 0.4s ease;
+      background-color: rgba(214, 214, 214, 0.524);
+      color: rgba(0, 153, 255, 0.637);
+   }
+   .badge{
+      font-size: 12px;
+      bottom: 24px;
+      right: 0;
+      border-bottom-left-radius: 0;
+   }
 }
 
 </style>

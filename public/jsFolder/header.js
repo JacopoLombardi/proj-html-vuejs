@@ -38,7 +38,7 @@ export const optionArray = [
       new: true
    },
    {
-      name: 'demons',
+      name: 'demos',
       new: false
    }
 ];
