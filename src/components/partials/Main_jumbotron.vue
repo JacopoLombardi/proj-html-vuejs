@@ -60,9 +60,10 @@ export default {
       <!-- cards -->
       <div class="_cards  _container_custom_sm  d-flex  justify-content-between">
         <div
-          v-for="item in cardsArray"
+          v-for="(item, i) in cardsArray"
           :key="item.id"
-          class="_card"
+          :class="{'me-3': i != cardsArray.length -1}"
+          class="_card  m-0"
           >
           <p>
             <i 
