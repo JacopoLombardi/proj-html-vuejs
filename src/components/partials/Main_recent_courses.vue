@@ -57,7 +57,7 @@ export default {
     <!-- cards wrapper -->
     <div class="d-flex  justify-content-center">
       <div class="container-fluid">
-        <div class="d-flex  row  flex-wrap  justify-content-center">
+        <ul class="d-flex  row  flex-wrap  justify-content-center  p-0">
 
           <Main_cards_layout 
             v-for="item in recentCoursesArray.cards"
@@ -66,7 +66,7 @@ export default {
             
           />
  
-        </div>
+        </ul>
       </div>
     </div>
 

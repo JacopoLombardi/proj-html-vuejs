@@ -33,7 +33,7 @@ export default {
 <!-- HTML -->
 <template>
 
-   <div class="card  bg-light  border  col-2  mx-2  p-0  mb-5">
+   <li class="card  bg-light  border  col-2  mx-2  p-0  mb-5">
       <img
         :src="('../../../public/img/' + cards.src)"
         alt=""
@@ -99,7 +99,7 @@ export default {
          </div>
 
       </div>
-   </div>  
+   </li>  
    
 </template>
 
