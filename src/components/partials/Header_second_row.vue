@@ -58,8 +58,8 @@ export default {
       </div>
 
       <!-- become -->
-      <div class="d-flex">
-         <div 
+      <ul class="d-flex  mb-0">
+         <li 
             v-for="(item, i) in becomeArray"
             :key="i"
             :class="{'me-4': i === 0}"
@@ -72,8 +72,8 @@ export default {
                </i>
             </p>
             <p class="capitalized_">{{ item.text }}</p>
-         </div>
-      </div>
+         </li>
+      </ul>
 
       <!-- sign up -->
       <div class="d-flex  align-items-center">

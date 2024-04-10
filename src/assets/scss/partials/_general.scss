@@ -1,8 +1,9 @@
 
 @use './variables' as *;
 
-//  stili generali
 
+
+//  stili generali
 img{
    max-width: 100%;
 }
@@ -27,6 +28,9 @@ p{
    margin: 0;
 }
 
+
+
+// stili grafici
 .uppercase_{
    text-transform: uppercase;
 }
@@ -39,6 +43,13 @@ p{
    text-decoration: line-through;
 }
 
+.cursor_pointer{
+   cursor: pointer;
+}
+
+
+
+// stili di colori
 .blue_{
    color: rgb(23, 155, 250);
 }
@@ -49,8 +60,4 @@ p{
 
 .text_grey{
    color: rgba(118, 118, 118, 0.965);
-}
-
-.cursor_pointer{
-   cursor: pointer;
 }

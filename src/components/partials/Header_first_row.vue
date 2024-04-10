@@ -31,7 +31,7 @@ export default {
 <template>
 
    <!-- first row -->
-   <section class="language_and_social  d-flex  justify-content-between  align-items-center  text_grey  py-2  m-0">
+   <section class="d-flex  justify-content-between  text_grey  py-2  m-0">
 
       <!-- language -->
       <div>
@@ -48,26 +48,26 @@ export default {
 
       <div class="d-flex">
          <!-- option -->
-         <div class="d-flex  fs-5  fw-semibold  me-5">
-            <p
+         <ul class="d-flex  fs-5  fw-semibold  me-5  mb-0">
+            <li
                v-for="item in optionArray"
                :key="item.id"
                class="capitalized_  cursor_pointer  mx-3"
             >
                {{ item.name }}
-            </p>
-         </div>
+            </li>
+         </ul>
 
          <!-- social -->
-         <div class="d-flex">
-            <p
+         <ul class="d-flex  mb-0">
+            <li
                v-for="item in socialArray"
                :key="item.id"
                v-html="item"
                class="_social_icon  cursor_pointer  fs-5  mx-2"
             >
-            </p>
-         </div>
+            </li>
+         </ul>
       </div>
 
    </section>

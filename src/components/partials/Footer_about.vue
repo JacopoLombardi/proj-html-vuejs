@@ -43,7 +43,7 @@ export default {
                v-for="item in aboutArray.iconSocial"
                :key="item.id"
                v-html="item"
-               class="me-4"
+               class="cursor_pointer  me-4"
             >
             </li>
          </ul>
