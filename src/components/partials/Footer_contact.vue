@@ -34,7 +34,7 @@ export default {
          v-for="item in contactArray"
          :key="item.id"
       >
-         <h4 class="capitalized_">{{ item.title }}</h4>
+         <h5 class="capitalized_    fw-bold">{{ item.title }}</h5>
          <p class="_text  my-4">{{ item.text }}</p>
 
          <p>{{ item.number }}</p>

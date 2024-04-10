@@ -30,12 +30,13 @@ export default {
 <template>
 
    <section class="d-flex  justify-content-center">
-      <div class="_container_custom  d-flex  justify-content-center">
+      <div class="_container_custom  d-flex  justify-content-between">
 
          <div
-           v-for="item in becomeArray"
+           v-for="(item, i) in becomeArray"
            :key="item.id"
-           class="d-flex  border  p-5  me-5"
+           :class="{'me-5': i === 0}"
+           class="d-flex  border  p-5  w-50"
          >
             <div>
                <img 

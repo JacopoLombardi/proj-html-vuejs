@@ -7,9 +7,7 @@
 import Footer_about from './partials/Footer_about.vue'
 import Footer_contact from './partials/Footer_contact.vue'
 import Footer_pages from './partials/Footer_pages.vue'
-
-
-
+import Footer_blog from './partials/Footer_blog.vue'
 
 
 export default {
@@ -18,8 +16,7 @@ export default {
     Footer_about,
     Footer_contact,
     Footer_pages,
-
-
+    Footer_blog
   },
 
   data(){
@@ -36,7 +33,7 @@ export default {
 <template>
 
   <div class="d-flex  justify-content-center">
-    <div class="_box  _container_custom_sm  row  border">
+    <div class="_box  _container_custom_sm  row">
 
       <Footer_about />
 
@@ -44,10 +41,7 @@ export default {
 
       <Footer_pages />
 
-
-
-      
-
+      <Footer_blog />
 
     </div>
   </div>

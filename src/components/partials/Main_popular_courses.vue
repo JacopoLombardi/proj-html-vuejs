@@ -47,13 +47,14 @@ export default {
 
          <!-- cards wrapper -->
          <div class="d-flex  justify-content-center  mt-5">
-            <div class="_container_custom">
-               <div class="d-flex  row  flex-wrap  justify-content-center">
+            <div class="container-fluid">
+               <div class="d-flex  row  flex-nowrap  justify-content-center">
 
                   <Main_cards_layout 
-                     v-for="item in recentCoursesArray.cards"
+                     v-for="(item, i) in recentCoursesArray.cards"
                      :key="item.id"
                      :cards="item"
+                     :class="{'d-none': i > 5}"
                   />
 
                </div>

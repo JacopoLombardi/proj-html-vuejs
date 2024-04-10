@@ -57,15 +57,16 @@ export default {
 
     <!-- cards wrapper -->
     <div class="d-flex  justify-content-center">
-      <div class="_container_custom">
+      <div class="container-fluid">
         <div class="d-flex  row  flex-wrap  justify-content-center">
 
           <Main_cards_layout 
             v-for="item in recentCoursesArray.cards"
             :key="item.id"
             :cards="item"
+            
           />
-
+ 
         </div>
       </div>
     </div>

@@ -29,12 +29,12 @@ export default {
 <!-- HTML -->
 <template>
 
-   <section class="col-3  me-3  p-0">
+   <section class="col-3  p-0">
      <div
          v-for="item in aboutArray.dataText"
          :key="item.id"
       >
-         <h4 class="capitalized_">{{ item.title }}</h4>
+         <h5 class="capitalized_  fw-bold">{{ item.title }}</h5>
          <p class="mt-4"><span>{{ item.mainText.blueWord }}</span> {{ item.mainText.text }}</p>
          <p>{{ item.secondaryText.text }} <span>{{ item.secondaryText.blueWord }}</span>.</p>
 

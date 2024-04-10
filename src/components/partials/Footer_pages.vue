@@ -29,15 +29,15 @@ export default {
 <!-- HTML -->
 <template>
 
-   <section class="col-3  p-0">
+   <section class="col-3">
       <div>
-        <h4 class="capitalized_">pages</h4>
+        <h5 class="capitalized_  fw-bold">pages</h5>
 
-        <ul class="d-flex  flex-column  flex-wrap  mt-4">
+        <ul class="d-flex  flex-column  flex-wrap  mt-4  ps-4">
           <li 
             v-for="item in pagesArray"
             :key="item.id"
-            class="capitalized_  fs-5  me-5"
+            class="capitalized_  me-5"
           >
             {{ item }}
           </li>
@@ -56,8 +56,12 @@ export default {
 
 
 ul{
-  max-height: 100px;
+  max-height: 130px;
   list-style: disc;
+  li{
+    font-size: 17px;
+    line-height: 200%;
+  }
 }
 
 </style>
