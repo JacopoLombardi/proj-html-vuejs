@@ -31,7 +31,7 @@ export default {
 <!-- HTML -->
 <template>
   
-  <section class="d-flex  flex-column  align-items-center  mt-5">
+  <section class="d-flex  flex-column  align-items-center">
 
       <div class="_container_custom_sm  _jumbotron  d-flex  align-items-center">
          <!-- titolo e testo -->
@@ -40,8 +40,8 @@ export default {
           :key="item.id"
           class="w-50"
         >
-          <h1 class="capitalized_  fw-normal">{{ item.title }}</h1>
-          <p class=" fw-semibold  fs-5  my-4">{{ item.text }}</p>
+          <h1 class="capitalized_  fw-light">{{ item.title }}</h1>
+          <p class="fs-5  my-4">{{ item.text }}</p>
           <button class="btn  btn-primary  uppercase_  fw-semibold  rounded-5  py-3  px-4">{{ item.textBtn }}</button>
         </div>
 
@@ -87,6 +87,9 @@ export default {
 
 
 ._jumbotron{
+  h1{
+    font-size: 50px;
+  }
   .img_book1{
     left: 63%;
     bottom: 38%;
@@ -100,7 +103,7 @@ export default {
     bottom: 23%;
   }
   .img_bubblespeech{
-   left: 82%;
+  left: 82%;
     bottom: 73%;
   }
 }

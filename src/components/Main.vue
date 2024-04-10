@@ -15,8 +15,6 @@ import Main_come from './partials/Main_come.vue'
 
 
 
-
-
 export default {
   components:{
     Main_jumbotron,
@@ -26,9 +24,7 @@ export default {
     Main_proud,
     Main_popular_courses,
     Main_become,
-    Main_come,
-
-
+    Main_come
   },
 
   data(){
@@ -63,8 +59,6 @@ export default {
   <Main_become />
 
   <Main_come />
-
-
 
 </template>
 

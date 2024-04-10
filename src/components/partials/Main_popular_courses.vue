@@ -80,7 +80,8 @@ export default {
 
 
 section{
-   padding-top: 130px;
+   margin-top: 0;
+   padding-top: 120px;
    background-color: #f0f4fa;
    button{
       border: 1px solid rgb(196, 196, 196);

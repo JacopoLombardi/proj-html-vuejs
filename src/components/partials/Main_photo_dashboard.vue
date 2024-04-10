@@ -27,7 +27,7 @@ export default {
 <!-- HTML -->
 <template>
   
-   <section class="d-flex  justify-content-center  mb-5">
+   <section class="d-flex  justify-content-center">
       <div class="_container_custom_sm  _container_photo">
 
          <!-- upper row -->
@@ -95,22 +95,20 @@ export default {
 <style lang="scss" scoped>
 
 
-section{
-   margin-top: 150px;
-   .box_text{
-      display: flex;
-      justify-content: space-between;
-      margin-top: 10px;
-      h4{
-      font-size: 21px;
-      }
-      p{
-         font-weight: 500;
-         font-size: 20px;
-         text-transform: capitalize;
-      }
+.box_text{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+   h4{
+   font-size: 21px;
+   }
+   p{
+      font-weight: 500;
+      font-size: 20px;
+      text-transform: capitalize;
    }
 }
+
 
 
 </style>

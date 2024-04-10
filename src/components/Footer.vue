@@ -57,7 +57,7 @@ export default {
 
 
 ._box{
-  margin: 70px;
+  margin: 50px;
 }
 
 </style>

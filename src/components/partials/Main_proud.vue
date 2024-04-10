@@ -59,7 +59,7 @@ export default {
 
 
    <!-- subscribe -->
-   <section class="bg_green  d-flex  justify-content-center  align-items-center  text-white">
+   <section class="bg_green  d-flex  justify-content-center  align-items-center  text-white  m-0">
 
       <!-- text -->
       <div class="box_text  me-4  pe-2">
@@ -87,7 +87,6 @@ export default {
 
 
 .bg_light{
-   margin-top: 130px;
    height: 600px;
    background-image: url(../../../public/img/we_proud.png);
    background-color: #f0f4fa;

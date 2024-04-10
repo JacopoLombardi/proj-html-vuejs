@@ -3,12 +3,13 @@
 <!-- Javascript -->
 <script>
 
+import {store} from './data/store'
+
 // import componenti
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
 
-import {store} from './data/store'
 
 export default {
   components:{
@@ -33,16 +34,12 @@ export default {
 
 <!-- HTML -->
 <template>
-  
 
   <Header />
 
-
   <Main />
 
-
   <Footer />
-
 
 </template>
 

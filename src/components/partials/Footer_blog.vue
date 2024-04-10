@@ -31,13 +31,13 @@ export default {
 
    <section class="col-3">
       <div>
-
         <h5 class="capitalized_  fw-bold  mb-4">blog</h5>
 
          <div
-            v-for="item in blogArray"
+            v-for="(item, i) in blogArray"
             :key="item.id"
-            class="d-flex  mb-5"
+            :class="{'mb-5': i === 0}"
+            class="d-flex"
          >
             <div>
                <img 

@@ -63,9 +63,5 @@ export default {
 <style lang="scss" scoped>
 
 
-section{
-   margin-top: 130px;
-}
-
 
 </style>

@@ -37,7 +37,6 @@ export default {
 <template>
   
   <section>
-
     <!-- titolo e menu -->
     <div class="d-flex  flex-column  align-items-center">
       <h2 class="fw-light  fs-1  mb-5">Recent courses</h2>
@@ -87,16 +86,14 @@ export default {
 <style lang="scss" scoped>
 
 
-section{
-  margin-top: 130px;
-   .box_title{
-    & li:hover{
-      transition: all 0.6s ease;
-      background-color: rgb(228, 228, 228);
-      color: rgb(150, 150, 150);
-    }
-   }
+.box_title{
+  & li:hover{
+    transition: all 0.6s ease;
+    background-color: rgb(228, 228, 228);
+    color: rgb(150, 150, 150);
+  }
 }
+
 
 
 </style>

@@ -53,7 +53,6 @@ export default {
 
 
 section{
-   margin-top: 150px;
    padding: 160px 0;
    background-image: url(../../../public/img/Untitled-1-1-1-1-1.png);
    ._description{

@@ -31,7 +31,7 @@ export default {
 <template>
 
    <!-- first row -->
-   <section class="language_and_social  d-flex  justify-content-between  align-items-center  text_grey  py-2">
+   <section class="language_and_social  d-flex  justify-content-between  align-items-center  text_grey  py-2  m-0">
 
       <!-- language -->
       <div>

@@ -54,7 +54,6 @@ export default {
 
 
 section{
-   margin-top: 130px;
    height: 700px;
    background-image: url(../../../public/img/brooke-cagle-224821-unsplash-1-1920x700.jpg);
    .box_text{
