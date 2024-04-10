@@ -29,6 +29,7 @@ export default {
 <!-- HTML -->
 <template>
 
+   <!-- come -->
    <section class="position-relative">
       <div
         v-for="item in comeArray"

@@ -29,6 +29,7 @@ export default {
 <!-- HTML -->
 <template>
 
+   <!-- blog -->
    <section class="col-3">
       <div>
         <h5 class="capitalized_  fw-bold  mb-4">blog</h5>

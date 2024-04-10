@@ -29,6 +29,7 @@ export default {
 <!-- HTML -->
 <template>
 
+   <!-- become -->
    <section class="d-flex  justify-content-center">
       <div class="_container_custom  d-flex  justify-content-between">
 

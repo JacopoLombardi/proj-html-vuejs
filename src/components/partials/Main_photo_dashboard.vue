@@ -26,7 +26,8 @@ export default {
 
 <!-- HTML -->
 <template>
-  
+   
+   <!-- photo dashboard -->
    <section class="d-flex  justify-content-center">
       <div class="_container_custom_sm  _container_photo">
 
@@ -47,7 +48,6 @@ export default {
                </div>
             </div>
 
-
             <div class="right_to_big_photo  d-flex  flex-column  justify-content-between">
                <div 
                   v-for="item in photoDashboardArray.rightToBigPhoto"
@@ -64,7 +64,6 @@ export default {
                </div>
             </div>
          </div>
-
 
          <!-- down row -->
          <div class="_down  d-flex  mt-4">

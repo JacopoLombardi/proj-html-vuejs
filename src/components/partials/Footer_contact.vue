@@ -29,6 +29,7 @@ export default {
 <!-- HTML -->
 <template>
 
+   <!-- contact -->
    <section class="col-3">
       <div
          v-for="item in contactArray"

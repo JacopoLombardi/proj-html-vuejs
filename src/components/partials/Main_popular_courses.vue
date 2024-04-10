@@ -36,6 +36,7 @@ export default {
 <!-- HTML -->
 <template>
 
+   <!-- popular courses -->
    <section>
       <div class="d-flex  flex-column  align-items-center">
 
@@ -64,7 +65,7 @@ export default {
                   <button class="btn  "><i class="fa-solid  fa-chevron-left  p-2"></i></button>
                   <button class="btn  "><i class="fa-solid  fa-chevron-right  p-2"></i></button>
                </div>
-
+               
             </div>
          </div>
 

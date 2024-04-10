@@ -55,7 +55,8 @@ export default {
                class="capitalized_  position-relative  cursor_pointer  rounded-5  mx-1  px-3"
             >
                {{ item.name }}
-
+               
+               <!-- badges -->
                <span
                  :class="{'d-none': item.new === false}"
                  class="badge  text-bg-danger  position-absolute">

@@ -36,7 +36,9 @@ export default {
 <!-- HTML -->
 <template>
   
+  <!-- recent courses -->
   <section>
+
     <!-- titolo e menu -->
     <div class="d-flex  flex-column  align-items-center">
       <h2 class="fw-light  fs-1  mb-5">Recent courses</h2>

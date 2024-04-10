@@ -29,6 +29,7 @@ export default {
 <!-- HTML -->
 <template>
 
+  <!-- pages -->
    <section class="col-3">
       <div>
         <h5 class="capitalized_  fw-bold">pages</h5>
@@ -41,7 +42,6 @@ export default {
           >
             {{ item }}
           </li>
-          
         </ul>
 
       </div>

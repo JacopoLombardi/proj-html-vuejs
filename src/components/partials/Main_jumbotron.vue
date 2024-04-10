@@ -34,7 +34,8 @@ export default {
   <section class="d-flex  flex-column  align-items-center">
 
       <div class="_container_custom_sm  _jumbotron  d-flex  align-items-center">
-         <!-- titolo e testo -->
+
+        <!-- titolo e testo -->
         <div 
           v-for="item in titleAndTextArray"
           :key="item.id"
@@ -45,7 +46,7 @@ export default {
           <button class="btn  btn-primary  uppercase_  fw-semibold  rounded-5  py-3  px-4">{{ item.textBtn }}</button>
         </div>
 
-         <!-- composizione dell'immagine -->
+        <!-- composizione dell'immagine -->
         <div class="position-relative  ms-5">
           <img 
             v-for="(item, i) in imageCompositionArray"

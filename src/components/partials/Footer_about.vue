@@ -28,7 +28,8 @@ export default {
 
 <!-- HTML -->
 <template>
-
+   
+   <!-- about -->
    <section class="col-3  p-0">
      <div
          v-for="item in aboutArray.dataText"
