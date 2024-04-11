@@ -49,7 +49,7 @@ export default {
          <!-- cards wrapper -->
          <div class="d-flex  justify-content-center  mt-5">
             <div class="container-fluid">
-               <div class="d-flex  row  flex-nowrap  justify-content-center">
+               <ul class="d-flex  row  flex-nowrap  justify-content-center  p-0">
 
                   <Main_cards_layout 
                      v-for="(item, i) in recentCoursesArray.cards"
@@ -58,7 +58,7 @@ export default {
                      :class="{'d-none': i > 5}"
                   />
 
-               </div>
+               </ul>
 
                <!-- button next/prev -->
                <div class="box_btn  d-flex  justify-content-center  mb-5">

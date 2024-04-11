@@ -65,7 +65,6 @@ export default {
             v-for="item in recentCoursesArray.cards"
             :key="item.id"
             :cards="item"
-            
           />
  
         </ul>
