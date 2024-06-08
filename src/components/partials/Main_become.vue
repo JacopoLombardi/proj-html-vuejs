@@ -41,7 +41,7 @@ export default {
          >
             <div>
                <img 
-                  :src="'../../../public/img/' + item.src" 
+                  :src="item.src" 
                   :alt="item.alt"
                >
             </div>

@@ -36,7 +36,7 @@ export default {
    <!-- layout card -->
    <li class="card  bg-light  border  col-2  mx-2  p-0  mb-5">
       <img
-        :src="('../../../public/img/' + cards.src)"
+        :src="cards.src"
         alt=""
         class="card-img-top"
       >
