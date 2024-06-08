@@ -87,13 +87,13 @@ export const pagesArray = [
 export const blogArray = [
 
    {
-      src: 'photo-1517520287167-4bbf64a00d66-150x150.jpeg',
+      src: '/img/photo-1517520287167-4bbf64a00d66-150x150.jpeg',
       alt: 'cam',
       text: 'Our main target is to "Developing Yourself as a Leader"',
       date: 'August 9, 2018'
    },
    {
-      src: 'photo-1490376840453-5f616fbebe5b-150x150.jpeg',
+      src: '/img/photo-1490376840453-5f616fbebe5b-150x150.jpeg',
       alt: 'person',
       text: 'Those Other College Expenses You Aren\'t Thinking About',
       date: 'June 3, 2015'

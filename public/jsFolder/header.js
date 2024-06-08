@@ -69,7 +69,7 @@ export const socialArray = [
 // array del logo
 export const logoArray = [ 
    {
-      src: '../../../public/img/MasterStudy_logo.svg',
+      src: '/img/MasterStudy_logo.svg',
       alt: 'logo'
    }
 ];

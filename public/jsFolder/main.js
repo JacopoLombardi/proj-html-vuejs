@@ -80,7 +80,7 @@ export const photoDashboardArray = {
 
    bigPhoto: [
       {
-         src: '../../../public/img/cat_1-1540x750.jpg',
+         src: '/img/cat_1-1540x750.jpg',
          alt: 'developer',
          title: 'software development',
          text: '5 courses'
@@ -89,13 +89,13 @@ export const photoDashboardArray = {
 
    rightToBigPhoto: [
       {
-         src: '../../../public/img/cat_2-740x310.jpg',
+         src: '/img/cat_2-740x310.jpg',
          alt: 'art',
          title: 'art',
          text: '8 courses'
       },
       {
-         src: '../../../public/img/cat_3-740x310.jpg',
+         src: '/img/cat_3-740x310.jpg',
          alt: 'pc',
          title: 'material design',
          text: '5 courses'
@@ -104,19 +104,19 @@ export const photoDashboardArray = {
    
    downPhoto: [
       {
-         src: '../../../public/img/cat_4-740x310.jpg',
+         src: '/img/cat_4-740x310.jpg',
          alt: 'exercise',
          title: 'exercise',
          text: '5 courses'
       },
       {
-         src: '../../../public/img/cat_5-740x310.jpg',
+         src: '/img/cat_5-740x310.jpg',
          alt: 'music',
          title: 'music',
          text: '7 courses'
       },
       {
-         src: '../../../public/img/cat_6-740x310.jpg',
+         src: '/img/cat_6-740x310.jpg',
          alt: 'photography',
          title: 'photography',
          text: '4 courses'
@@ -170,7 +170,7 @@ export const recentCoursesArray = {
 
    cards: [
       {
-         src: 'photo-1461749280684-dccba630e2f6-544x322.jpeg',
+         src: '/img/photo-1461749280684-dccba630e2f6-544x322.jpeg',
          alt: 'code',
          type: 'apache',
          text: 'Web Coding and Apache Basics',
@@ -187,7 +187,7 @@ export const recentCoursesArray = {
             }
       },
       {
-         src: 'cat_2-544x322.jpg',
+         src: '/img/cat_2-544x322.jpg',
          alt: 'art',
          type: 'art',
          text: 'Real Things Art Painting by Jason Ni',
@@ -204,7 +204,7 @@ export const recentCoursesArray = {
             }
       },
       {
-         src: 'course-preview-544x322.jpg',
+         src: '/img/course-preview-544x322.jpg',
          alt: 'masterstudy',
          type: 'software development',
          text: 'Basics of Masterstudy',
@@ -221,7 +221,7 @@ export const recentCoursesArray = {
             }
       },
       {
-         src: 'photo-1496307042754-b4aa456c4a2d-544x322.jpeg',
+         src: '/img/photo-1496307042754-b4aa456c4a2d-544x322.jpeg',
          alt: 'music',
          type: 'electronic',
          text: 'How to be a DJ? Make Electronic Music',
@@ -238,7 +238,7 @@ export const recentCoursesArray = {
             }
       },
       {
-         src: 'photo-1416339134316-0e91dc9ded92-scaled-544x322.jpeg',
+         src: '/img/photo-1416339134316-0e91dc9ded92-scaled-544x322.jpeg',
          alt: 'design',
          type: 'communication',
          text: 'Design Instrument for Communication',
@@ -255,7 +255,7 @@ export const recentCoursesArray = {
             }
       },
       {
-         src: 'cathryn-lavery-67852-unsplash-544x322.jpg',
+         src: '/img/cathryn-lavery-67852-unsplash-544x322.jpg',
          alt: 'book',
          type: 'art',
          text: 'Make your Concept Right and Beautiful',
@@ -272,7 +272,7 @@ export const recentCoursesArray = {
             }
       },
       {
-         src: 'photo-1475452779376-caebfb988090-544x322.jpeg',
+         src: '/img/photo-1475452779376-caebfb988090-544x322.jpeg',
          alt: 'bike',
          type: 'bicycling',
          text: 'Road Bike Manual or How to Be a Champion',
@@ -289,7 +289,7 @@ export const recentCoursesArray = {
             }
       },
       {
-         src: 'cristian-grecu-762012-unsplash-min-scaled-544x322.jpg',
+         src: '/img/cristian-grecu-762012-unsplash-min-scaled-544x322.jpg',
          alt: 'mountain',
          type: 'documentary',
          text: 'How to Make Beautiful Landscape photos?',
@@ -306,7 +306,7 @@ export const recentCoursesArray = {
             }
       },
       {
-         src: 'landscape-544x322.jpg',
+         src: '/img/landscape-544x322.jpg',
          alt: 'paint',
          type: 'art',
          text: 'Let\'s paint van Gogh\'s Starry Night',
@@ -323,7 +323,7 @@ export const recentCoursesArray = {
             }
       },
       {
-         src: '12345-1-544x322.png',
+         src: '/img/12345-1-544x322.png',
          alt: 'unreal',
          type: 'nvidia',
          text: 'Nvidia and UE4 Technologies Practise',
@@ -340,7 +340,7 @@ export const recentCoursesArray = {
             }
       },
       {
-         src: 'jakob-owens-198234-unsplash-min-1-544x322.png',
+         src: '/img/jakob-owens-198234-unsplash-min-1-544x322.png',
          alt: 'camera',
          type: 'art',
          text: 'How to Work with Legendary RED camera?',
@@ -357,7 +357,7 @@ export const recentCoursesArray = {
             }
       },
       {
-         src: 'promo_tf-544x322.jpg',
+         src: '/img/promo_tf-544x322.jpg',
          alt: 'promo',
          type: 'software development',
          text: 'MasterStudy Mobile LMS App',
@@ -419,14 +419,14 @@ export const proudArray = [
 
 export const becomeArray = [
    {
-      src: 'image_box_1-221x231.png',
+      src: '/img/image_box_1-221x231.png',
       alt: 'become',
       title:'Become an instructor',
       text: 'Teach what you love. MasterStudy gives you the tools to create a course.',
       btnText: 'start teaching'
    },
    {
-      src: 'image_box_2-234x231.png',
+      src: '/img/image_box_2-234x231.png',
       alt: 'setup',
       title:'Setup For Business',
       text: 'Get unlimited access to 2,500 of Udemy\'s top courses for your team.',
