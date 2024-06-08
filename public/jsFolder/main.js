@@ -19,27 +19,27 @@ export const titleAndTextArray = [
 export const imageCompositionArray = [
    {
       class: 'img_base',
-      src: '../../../public/img/base.png',
+      src: './public/img/base.png',
       alt: 'immagine base'
    },
    {
       class: 'img_book1',
-      src: '../../../public/img/book1.png',
+      src: './public/img/book1.png',
       alt: 'immagine libro 1'
    },
    {
       class: 'img_book2',
-      src: '../../../public/img/book2.png',
+      src: './public/img/book2.png',
       alt: 'immagine libro 2'
    },
    {
       class: 'img_lens',
-      src: '../../../public/img/magnifier.png',
+      src: './public/img/magnifier.png',
       alt: 'immagine lente d\'ingrandimento'
    },
    {
       class: 'img_bubblespeech',
-      src: '../../../public/img/bubblespeech.png',
+      src: './public/img/bubblespeech.png',
       alt: 'immagine discorso in bolla'
    }
 ];
